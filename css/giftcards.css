@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+}
+
+body {
+  margin: 0 auto;
+}
+/* Header */
+.header {
+  max-width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+}
+/* Contenedor del header */
+.header__container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+  gap: 1rem;
+}
+
+.header__container-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 1.5rem;
+}
+
+.header__menu-link {
+  color: black;
+}
+/* Boton comprar una ahora */
+.buy__giftcard {
+  width: 188px;
+  max-width: 100%;
+  text-decoration: none;
+  background: linear-gradient(to right, #ff3366, #e60073);
+  padding: 0.8rem 1.3rem;
+  border-radius: 2rem;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+/* Contenedor principal */
+.container {
+  max-width: 100%;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.main__container {
+  margin: 0 auto;
+}
+/* Sección de titulo e imagen */
+.container__giftcards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+.giftcards__title {
+  max-width: 100%;
+  text-align: center;
+  font-size: 7.6rem;
+  font-weight: 600;
+  line-height: 8rem;
+}
+
+.buy__giftcard--main {
+  width: 214px;
+  margin-top: 20px;
+  padding: 1rem 1.6rem;
+  font-size: 1rem;
+}
+
+.image__container {
+  margin-top: 50px;
+  width: 800px;
+  max-width: 100%;
+}
+
+.giftcards__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Regala escapada */
+.container__escape {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.escape__title {
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+  margin: 0 auto;
+}
+
+.escape__text {
+  text-align: center;
+  padding: 1.3rem 0 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.escape__buy {
+  color: black;
+  font-weight: 500;
+  padding-bottom: 4rem;
+}
+/* Tarjetas de regalo */
+.escape__title-design {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.design__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: .1rem;
+}
+
+.cards__container {
+  max-width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.design__image {
+  width: 432px;
+  height: 275px;
+}
+/* Ventajas */
+.advantages__container {
+  width: 1300px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 2rem;
+}
+
+.advantages__cards {
+  width: 405px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.advantages__cards-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.advantages__cards-text {
+  text-align: center;
+  font-size: 0.98rem;
+}
+/* Tarjetas regalo para empresas */
+.business__container {
+  background-color: #f7f7f7;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.business__information {
+  width: 460px;
+  padding-top: 5rem;
+  padding-left: 1rem;
+}
+
+.business__image {
+  width: 740px;
+  max-width: 100%;
+}
+
+.business__text {
+  padding-bottom: 2rem;
+}
+
+.business__text-link {
+  color: black;
+  font-weight: 500;
+}
+
+.business__start {
+  margin-top: 30px;
+}
+
+.business__start-link {
+  background-color: rgba(0, 0, 0, 0.856);
+  color: white;
+  padding: 1rem 1.9rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.business__start-link {
+  background-color: black;
+}
+
+.business__information-text {
+  width: 290px;
+  padding-top: 2rem;
+  font-size: 1.02rem;
+}
+/* Preguntas frecuentes */
+.questions__section {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.questions__help {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.questions__link {
+  color: black;
+  font-weight: 500;
+}
+
+.questions__text {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+}
+
+.questions__container {
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: .2rem;
+  padding-right: .1rem;
+  margin: 0 auto;
+}
+
+.questions__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 1.3rem;
+}
+
+.questions__text {
+  font-size: 1.07rem;
+}
+
+.questions__icons {
+  padding-top: .9rem;
+  font-size: 1.07rem;
+}

@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+/* Contenedor principal */
+.container {
+    max-width: 100%;
+    width: 1300px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+/* Contenedor de indice */
+.container__index {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid blue; */
+    margin-top: 10px;
+    flex-wrap: wrap;
+    padding: .5rem;
+}
+
+.container__index-icons {
+    max-width: 100%;
+    width: 1135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+/* Tarjetas de imagen junto a texto */
+.indexicons__cards {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    padding-bottom: .3rem;
+    padding-top: 2rem;
+    font-size: 12.8px;
+    height: 100px;
+    flex-wrap: wrap;
+    /* border: 1px solid #b4b4b4; */
+}
+
+.indexicons__link {
+    color: #6A6A6A;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.indexicons__cards:hover {
+    border-bottom: 2.5px solid #b4b4b4;
+}
+
+.indexicons__cards:hover .indexicons__link {
+    color: black;
+}
+
+.indexicons__image {
+    width: 24px;
+}
+/* Filtro y más */
+.container__index-more {
+    width: 135px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+    /* border: 1px solid red; */
+    padding-top: .5rem;
+}
+
+.indexicons__next {
+    color: #6A6A6A;
+    font-size: 1.3rem;
+    padding: .02rem .6rem;
+    border-radius: 3rem;
+    border: 1px solid #b4b4b4;
+    margin: 0;
+}
+
+.indexicons__next:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.indexicons__cards-filter {
+    max-width: 220px;
+    border: 1px solid #b4b4b4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: .5rem;
+    padding: .8rem;
+    font-size: .9rem;
+    border-radius: .8rem;
+    flex-wrap: wrap;
+}
+
+.indexicons__filter {
+    color: black;
+}
+
+.indexicons__cards-filter:hover {
+    background-color: #f7f7f7;
+    border: 1px solid black;
+}
+/* Contenedor de viajes */
+.container__journey {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;    
+    flex-wrap: wrap;
+    padding: .5rem;
+}
+/* Tarjetas de los viajes */
+.journey__card {
+    width: 320px;
+    max-width: 100%;
+    position: relative;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: 0.5rem auto;
+}
+
+.journey__image {
+    width: 310px;
+    height: 290px;
+    border-radius: .6rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 310px;
+}
+
+.journey__recommended {
+    background-color: white;
+    color: black;
+    padding: .3rem .5rem;
+    border-radius: 1rem;
+    margin: 10px;
+    font-size: .8rem;
+    position: absolute;
+    top: 3px;
+}
+
+.journey__container-text {
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+.journey__stars {
+    display: flex;
+    font-size: .9rem;
+}
+
+.journey__title {
+    font-weight: bold;
+}
+
+.journey__stars-star {
+    font-size: .7rem;
+    padding-top: .3rem;
+}
+
+.journey__heart {
+    color: rgb(255, 255, 255);
+    padding: .3rem .5rem;
+    border-radius: 1rem;
+    margin: 10px;
+    font-size: .8rem;
+    position: absolute;
+    right: 15px;
+    font-size: 1.3rem;
+    top: 0;
+}
+
+.journey__heart:hover {
+    scale: 1.2;
+}
+/* Mostrar más */
+.container__island {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 40px;
+}
+
+.island__showmore {
+    padding: .8rem 1.4rem;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: white;
+    border-radius: .5rem;
+    font-size: .85rem;
+    text-align: center;
+}
+
+.island__showmore:hover {
+    background-color: rgb(0, 0, 0);
+}
+/* Inspiraciones  */
+.section__container-insipiration {
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: .5rem;
+}
+
+.inspiration__container {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto
+}
+
+.inspiration__title {
+    padding-top: 2.7rem;
+}
+
+.inspiration__menu {
+    max-width: 1200px;
+    width: 100%;
+    padding: .9rem 0 .7rem;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.inspiration__menu-list {
+    list-style: none;
+    display: flex;
+    gap: 1.3rem;
+    flex-wrap: wrap;
+}
+
+.inspiration__menu-elements {
+    font-size: .8rem;
+    color: #6A6A6A;
+}
+
+.inspiration__countries {
+    padding: 1.2rem 0 0rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+    margin-right: 60px;
+    margin: 0 auto;
+}
+
+.countries__cards {
+    max-width: 168px;
+    width: 100%;
+}
+
+.cards__title {
+    color: black;
+    font-size: .8rem;
+}
+
+.cards__text-link {
+    color: #6A6A6A;
+    font-size: .8rem;
+    text-decoration: none;
+}
+
+.cards__text-link:hover {
+    color: black;
+    font-size: .8rem;
+}
+
+.cards__title-link {
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+    margin-left: 1px;
+}
+
+.cards__title-link:hover {
+    text-decoration: underline;
+}
+/* Botón mostrar mapa */
+.show__map {
+    padding: .8rem .9rem;
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+    font-size: .85rem;
+    text-align: center;
+    position: fixed;
+    bottom: 45px;
+    left: 45%;
+    z-index: 1000;
+}
+
+.show__map-link {
+    text-decoration: none;
+    color: white;
+}
+
+.show__map:hover {
+    scale: 1.05;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}

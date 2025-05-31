@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>airbnb</title>
+    <link rel="stylesheet" href="./css/index__header-footer.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__container">
+        <!-- Contenedor primero -->
+        <section class="container__section-up">
+          <div class="section__airbnb">
+            <img src="./assets/images/Logo_airbnb.png" class="airbnb__avatar" />
+          </div>
+          <div class="section__experience">
+            <a href="#" class="experience__link">Alojamientos</a>
+            <!-- Link a la página de experiencias -->
+            <a href="./pages/experiences.html" class="experience__link">Experiencias</a>
+          </div>
+          <div class="section__login">
+            <div class="login__house">
+              <a href="#" class="login__logs">Pon tu casa en Airbnb</a>
+              <i class="fa-solid fa-globe login__logs"></i>
+            </div>
+            <div class="login__dropdown">
+              <i class="fa-solid fa-bars login__user-bars"></i>
+              <i class="fas fa-user-circle login__user-account"></i>
+            </div>
+          </div>
+        </section>
+        <!-- Contenedor segundo -->
+        <section class="container__section-down">
+          <div class="section__form">
+            <div class="form__containers form__container-size">
+              <p class="form__title">Destino</p>
+              <input
+                type="text"
+                placeholder="Buscar destinos"
+                class="form__containers-input form__container-destination"
+              />
+            </div>
+            <div class="form__container-bars"></div>
+            <div class="form__containers">
+              <p class="form__title">Llegada</p>
+              <input type="date" class="form__containers-input" />
+            </div>
+            <div class="form__container-bars"></div>
+            <div class="form__containers">
+              <p class="form__title">Salida</p>
+              <input type="date" class="form__containers-input" />
+            </div>
+            <div class="form__container-bars"></div>
+            <div class="form__containers">
+              <p class="form__title">Viajeros</p>
+              <input
+                type="number"
+                placeholder="Añade viajeros"
+                class="form__containers-input"
+              />
+            </div>
+            <i class="fas fa-search form__icon"></i>
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- Contenedor principal -->
+    <div class="container">
+      <main class="main__container">
+        <!-- Index -->
+        <section class="container__index">
+          <div class="container__index-icons">
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/island__index.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">Islas</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/icon__index.webp"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">Iconos</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/minihouse__index.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">Minicasas</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/history__house.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">Casas históricas</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/piano__index.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">Pianos de cola</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/height__index.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">En las alturas</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/outhouse__index.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">Casa rurales</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/cabin__index.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">Cabañas</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/beach__index.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">A pie de playa</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/mansion__index.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">Mansiones</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/kitchen__index.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">Cocinas pro</a>
+            </div>
+            <div class="indexicons__cards">
+              <img
+                src="./assets/images/greekhouse__index.jpg"
+                class="indexicons__image"
+              />
+              <a href="#" class="indexicons__link">Casas griegas</a>
+            </div>
+          </div>
+          <div class="container__index-more">
+            <p class="indexicons__next">></p>
+            <div class="indexicons__cards-filter">
+              <i class="fas fa-sliders-h clase"></i>
+              <p class="indexicons__filter">Filtros</p>
+            </div>
+          </div>
+        </section>
+        <!-- Contenedor de viajes -->
+        <section class="container__journey">
+          <!-- Tarjetas de los viajes -->
+          <div class="journey__card">
+            <p class="journey__recommended">Recomendación del viajero</p>
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island1.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Lohja,Finlandia</p>
+                <p class="journey__text-description">Anfitrión particular</p>
+                <p class="journey__text-description">28 sept - 4 oct</p>
+                <p class="journey__text-description"><b>281 €</b> noche</p>
+              </div>
+              <div class="journey__stars">
+                <i class="fa-solid fa-star journey__stars-star"></i>
+                <p class="journey__stars-text">5,0</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island2.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Vis, Croacia</p>
+                <p class="journey__text-description">4,4 hectareas</p>
+                <p class="journey__text-description">
+                  1-6 may · Anfitrión profesional
+                </p>
+                <p class="journey__text-description"><b>771 €</b> noche</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <p class="journey__recommended">🏆 Recomendación del viajero</p>
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island3.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Hardwick, Reino Unido</p>
+                <p class="journey__text-description">7000 metros cuadrados</p>
+                <p class="journey__text-description">29 sept - 5 oct</p>
+                <p class="journey__text-description"><b>2.454 €</b> noche</p>
+              </div>
+              <div class="journey__stars">
+                <i class="fa-solid fa-star journey__stars-star"></i>
+                <p class="journey__stars-text">5,0</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island4.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Lézardrieux, Francia</p>
+                <p class="journey__text-description">15 hectareas</p>
+                <p class="journey__text-description">
+                  6-11 abr · Anfitrión profesional
+                </p>
+                <p class="journey__text-description"><b>1.509 €</b> noche</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <p class="journey__recommended">🏆 Recomendación del viajero</p>
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island5.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Lancashire, Reino Unido</p>
+                <p class="journey__text-description">Anfitrión profesional</p>
+                <p class="journey__text-description">20-25 abr</p>
+                <p class="journey__text-description"><b>1.575 €</b> noche</p>
+              </div>
+              <div class="journey__stars">
+                <i class="fa-solid fa-star journey__stars-star"></i>
+                <p class="journey__stars-text">4,92</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island6.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Murter, Croacia</p>
+                <p class="journey__text-description">1 hectárea</p>
+                <p class="journey__text-description">
+                  6-13 abr · Anfitrión profesional
+                </p>
+                <p class="journey__text-description"><b>422 €</b> noche</p>
+              </div>
+              <div class="journey__stars">
+                <i class="fa-solid fa-star journey__stars-star"></i>
+                <p class="journey__stars-text">5,0</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island7.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Ronneby, Suecia</p>
+                <p class="journey__text-description">Anfitrión profesional</p>
+                <p class="journey__text-description">6-13 sept</p>
+                <p class="journey__text-description"><b>421 €</b> noche</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <p class="journey__recommended">Recomendación del viajero</p>
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island8.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Cavallino, Italia</p>
+                <p class="journey__text-description">17 hectáreas</p>
+                <p class="journey__text-description">
+                  6-11 abr · Anfitrión particular
+                </p>
+                <p class="journey__text-description"><b>66 €</b> noche</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island9.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Lézardrieux, Francia</p>
+                <p class="journey__text-description">15 hectáreas</p>
+                <p class="journey__text-description">
+                  19-24 abr · Anfitrión profesional
+                </p>
+                <p class="journey__text-description"><b>1.840 €</b> noche</p>
+              </div>
+              <div class="journey__stars">
+                <i class="fa-solid fa-star journey__stars-star"></i>
+                <p class="journey__stars-text">5,0</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island10.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Hvar, Croacia</p>
+                <p class="journey__text-description">Anfitrión profesional</p>
+                <p class="journey__text-description">16-21 may</p>
+                <p class="journey__text-description"><b>469 €</b> noche</p>
+              </div>
+              <div class="journey__stars">
+                <i class="fa-solid fa-star journey__stars-star"></i>
+                <p class="journey__stars-text">4,88</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island11.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Olipa, Croacia</p>
+                <p class="journey__text-description">Anfitrión profesional</p>
+                <p class="journey__text-description">1-6 jun</p>
+                <p class="journey__text-description"><b>1.200 €</b> noche</p>
+              </div>
+            </div>
+          </div>
+          <div class="journey__card">
+            <i class="fa-regular fa-heart journey__heart"></i>
+            <img src="./assets/images/island12.avif" class="journey__image" />
+            <div class="journey__container-text">
+              <div class="journey__text">
+                <p class="journey__title">Olipa, Croacia</p>
+                <p class="journey__text-description">4,4 hectáreas</p>
+                <p class="journey__text-description">
+                  12-17 abr · Anfitrión profesional
+                </p>
+                <p class="journey__text-description"><b>1.176 €</b> noche</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Mostrar más -->
+        <div class="container__island">
+          <h3 class="island__title">Sigue descubriendo la categoría Islas</h3>
+          <p class="island__showmore">Mostrar más</p>
+        </div>
+        <!-- Botón mostrar mapa -->
+        <div class="show__map">
+          <a href="#" class="show__map-link">Mostrar mapa</a>
+          <i class="fa-solid fa-map"></i>
+        </div>
+      </main>
+    </div>
+    <!-- Inspiraciones  -->
+    <section class="section__container-insipiration">
+      <div class="inspiration__container">
+        <h3 class="inspiration__title">Inspiración para futuras escapadas</h3>
+        <div class="inspiration__menu">
+          <ul class="inspiration__menu-list">
+            <li class="inspiration__menu-elements">Más buscados</li>
+            <li class="inspiration__menu-elements">Ciudades</li>
+            <li class="inspiration__menu-elements">Playas</li>
+            <li class="inspiration__menu-elements">Con historia</li>
+            <li class="inspiration__menu-elements">Islas</li>
+            <li class="inspiration__menu-elements">Montañas</li>
+            <li class="inspiration__menu-elements">Categorías</li>
+            <li class="inspiration__menu-elements">Actividades</li>
+          </ul>
+        </div>
+        <div class="inspiration__countries">
+          <div class="countries__cards">
+            <p class="cards__title">Ámsterdam</p>
+            <a href="#" class="cards__text-link">Bungalows en alquiler</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Barcelona</p>
+            <a href="#" class="cards__text-link">Alquiler de vacaciones</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Benasque</p>
+            <a href="#" class="cards__text-link">Apartamentos de alquiler</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Burdeos</p>
+            <a href="#" class="cards__text-link">Alquiler con piscina</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Cercedilla</p>
+            <a href="#" class="cards__text-link">Casas rurales en alquiler</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Deltebre</p>
+            <a href="#" class="cards__text-link">Casas rurales en alquiler</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">La Molina</p>
+            <a href="#" class="cards__text-link">Apartamentos en alquiler</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Landes</p>
+            <a href="#" class="cards__text-link">Alquiler para vacaciones</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Londres</p>
+            <a href="#" class="cards__text-link">Casas en alquiler</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Mandello del Lario</p>
+            <a href="#" class="cards__text-link">Alquiler para vacaciones</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Motril</p>
+            <a href="#" class="cards__text-link">Apartamentos en alquiler</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Orbaneja del castillo</p>
+            <a href="#" class="cards__text-link">Alquiler para vacaciones</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Palmeira</p>
+            <a href="#" class="cards__text-link">Alquiler para vacaciones</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">París</p>
+            <a href="#" class="cards__text-link">Casas rurales en alquiler</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">El Poble Nou del Delta</p>
+            <a href="#" class="cards__text-link">Alquiler para vacaciones</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Riópar</p>
+            <a href="#" class="cards__text-link">Casas rurales en alquiler</a>
+          </div>
+          <div class="countries__cards">
+            <p class="cards__title">Roma</p>
+            <a href="#" class="cards__text-link">Casas en alquiler</a>
+          </div>
+          <div class="countries__cards">
+            <a href="#" class="cards__title-link"
+              >Mostrar más <i class="fas fa-chevron-down cards__title-link"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container">
+        <section class="footer__container-information">
+          <div class="information__cards">
+            <ul class="information__list">
+              <li class="information__list-text">
+                <p class="information__cards-title"
+                  >Asistencia</p
+                >
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link">Centro de ayuda</a>
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link">AirCover</a>
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link"
+                  >Lucha contra la discriminacion</a
+                >
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link"
+                  >Ayuda a la discapacidad</a
+                >
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link"
+                  >Opciones de cancelación</a
+                >
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link"
+                  >¿Problemas en el barrio?</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="information__cards">
+            <ul class="information__list">
+              <li class="information__list-text">
+                <p class="information__cards-title"
+                  >Como ser anfitrión</p
+                >
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link">Pon tu casa en Airbnb</a>
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link"
+                  >AirCover para anfitriones</a
+                >
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link"
+                  >Recursos para anfitriones</a
+                >
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link">Foro de la comunidad</a>
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link">Ser un anfitrión</a>
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link"
+                  >Apúntate a una clase gratuita sobre cómo ser anfitrión</a
+                >
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link">Busca un coanfitrión</a>
+              </li>
+            </ul>
+          </div>
+          <div class="information__cards">
+            <ul class="information__list">
+              <li class="information__list-text">
+                <p class="information__cards-title">Airbnb</p>
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link">Newsroom</a>
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link">Nuevas funciones</a>
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link">Empleo</a>
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link">Inversores</a>
+              </li>
+              <li class="information__list-text">
+                <!-- Link a la página tarjetas de regalo -->
+                <a href="./pages/giftcards.html" class="cards__title-link">Tarjetas de regalo</a>
+              </li>
+              <li class="information__list-text">
+                <a href="#" class="cards__title-link"
+                  >Estancias con Airbnb.org</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__container-politics">
+          <div class="container__politics">
+            <ul class="politics__list">
+              <li class="politics__list-elements">
+                © 2025 Airbnb, Inc.
+              </li>
+              <li class="politics__list-elements">·
+                <a href="#" class="politics__list-link"> Privacidad</a>
+              </li>
+              <li class="politics__list-elements">·
+                <a href="#" class="politics__list-link"> Condiciones</a>
+              </li>
+              <li class="politics__list-elements">·
+                <a href="#" class="politics__list-link"> Mapa del sitio</a>
+              </li>
+              <li class="politics__list-elements">·
+                <a href="#" class="politics__list-link"
+                  > Datos de la empresa</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="container__socialnetworks">
+            <ul class="socialnetworks__list">
+              <li class="socialnetworks__list-elements">
+                <a href="#" class="socialnetworks__list-link"
+                  ><i class="fa-solid fa-globe socialnetworks__list-link"></i
+                  >Español(ES)</a
+                >
+              </li>
+              <li class="socialnetworks__list-elements">
+                <a href="#" class="socialnetworks__list-link">€ EUR</a>
+              </li>
+              <li class="socialnetworks__list-elements">
+                <a href="#" class="socialnetworks__link-icon"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li class="socialnetworks__list-elements">
+                <a href="#" class="socialnetworks__link-icon"
+                  ><i class="fab fa-x-twitter"></i>
+                </a>
+              </li>
+              <li class="socialnetworks__list-elements">
+                <a href="#" class="socialnetworks__link-icon"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
